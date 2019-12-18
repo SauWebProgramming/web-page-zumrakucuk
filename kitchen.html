@@ -30,3 +30,149 @@
         
         </ul>
         </nav>
+
+        <section id="features" class="sectionAres">
+            <div class="featuresTop">
+                <h2 class="sectionHeader">MUTFAK BAKIM ÜRÜNLERİ</h2>
+                <p>MUTFAK BAKIM ÜRÜNLERİMİZLE BAŞARIMIZI GÖSTERDİK.</p>
+            </div>
+            <div class="featuresBody">
+                <div class="container">
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="mk21.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>DOLAP TEMİZLİĞİ</h3>
+                                <p>MKİMYA olarak mutfak dolaplarınız için geliştirdiğimiz ürünlerimizle dolaplarınızı ilk günkü kadar temiz ve yeni hale getiriyoruz.</p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="mk22.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>TEZGAH TEMİZLİĞİ</h3>
+                                <p>MKİMYA olarak mutfak tezgah temizliği için geliştirdğimiz ürünlerimizle tezgahınızı eskitmeden gerekli temizliği sağlıyoruz.</p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="mk23.png">
+                            </div>
+                            <div class="itemText">
+                                <h3>FIRIN TEMİZLİĞİ</h3>
+                                <p>MKİMYA olarak mutfak fırınlarınız için geliştirdğimiz kaliteli ürünlerimizle fırında hiç bir leke yağ izi bırakmadan temizliğini gerçekleştiriyoruz..</p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <style>
+            .container{
+                width:100%;
+                margin:0 anto;
+                display:flex;
+
+            }
+
+            .featuresBody .container{
+                justify-content: space-between;
+            }
+            
+            .col3{
+                flex-grow:1;
+                width:33.33%;
+            }
+
+            .sectionHeader{
+                background:brown;
+                border-bottom:6px solid #e6f0f0;
+                border-top:6px solid #e6f0f0;;
+                height:60px;
+                color:#fff;
+                display:inline-block;
+                line-height: 60px;
+                font-size:24px;
+                padding:5px 40px;
+                letter-spacing:2px;
+                margin-bottom:20px;
+            }
+
+            .sectionArea{
+                padding:80px 0;
+            }
+
+            .featuresTop{
+                text-align: center;
+                font-size:20px;
+            }
+            .item{
+                padding:10px 20px;
+            }
+
+            .zoom{
+                position:relative;
+                overflow:hidden;
+                display: inline-block;
+                width:100%;
+                vertical-align:top;
+            }
+
+            .zoom img{
+                display: block;
+                width:100%;
+                height:auto;
+                transition: all .5s ease;
+            }
+
+            .item .itemText{
+                text-align:center;
+                padding:5px;
+                border:1px solid brown;
+            }
+
+            .item:hover .zoom img{
+               transform:scale(1.25);
+            }
+
+            .item:hover h3{
+                color:#fff;
+            }
+
+           
+            .item:hover .itemText{
+                background: brown;
+                color:#fff;
+                transition:all .5s ease;
+
+            }
+
+            h1{
+                font-size:52px;
+                letter-spacing: 4px;
+                margin-bottom: 20px;
+            }
+            
+            h3{
+                font-size:16px;
+                color: brown;
+                transition: all .5s ease;
+            }
+        </style>
