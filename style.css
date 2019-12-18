@@ -3,7 +3,34 @@
     padding:0px;
     }
     
+    .content{
+        width:300px;
+        margin:20px auto;
+        box-shadow:1px 1px 10px 2px #333;
+        border-radius:5px;
+        overflow:hidden;
+        margin-left: 2%;
+        margin-top:8%;
+    }
     
+    .header{
+        background:brown;
+        color:white;
+        padding:15px 0px;
+        
+
+    }
+    .moving-body{
+        padding:4px;
+        height:300px;
+        
+
+    }
+    .m-par{
+        text-align:center;
+        padding:4px;
+        border-bottom:1px solid #afafaf;
+    }
     nav{
     border-top:3px solid rgb(139, 52, 36);
     background:	#1e5c5c;
@@ -75,7 +102,7 @@
      .middle{
          position: absolute;
          top: 55%;
-         left: 50%;
+         left: 60%;
          transform: translate(-50%, -50%) ;
      }
       
