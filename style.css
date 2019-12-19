@@ -4,17 +4,17 @@
     }
     
     .content{
-        width:300px;
+        width:250px;
         margin:20px auto;
         box-shadow:1px 1px 10px 2px #333;
         border-radius:5px;
         overflow:hidden;
-        margin-left: 2%;
-        margin-top:8%;
+        margin-left: 80%;
+        margin-top:7%;
     }
     
     .header{
-        background:brown;
+        background:#1e5c5c;
         color:white;
         padding:15px 0px;
         
@@ -101,8 +101,8 @@
 
      .middle{
          position: absolute;
-         top: 55%;
-         left: 60%;
+         top: 52%;
+         left: 50%;
          transform: translate(-50%, -50%) ;
      }
       
