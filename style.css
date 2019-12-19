@@ -172,6 +172,7 @@
 
     .gallery{
         margin:10px 125px;
+        margin-top: 4%;
         
     }
 
@@ -187,3 +188,5 @@
         transform:scale(1.1);
 
      }
+
+     
