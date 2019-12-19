@@ -27,7 +27,7 @@
 
     }
     .m-par{
-        text-align:center;
+        text-align:left;
         padding:4px;
         border-bottom:1px solid #afafaf;
     }
@@ -170,4 +170,20 @@
      }
 
 
-    
+    .gallery{
+        margin:10px 125px;
+        
+    }
+
+    .gallery img{
+        widows: 230px;
+        padding:5px;
+        filter: grayscale(100%);
+        transition:1s;
+     }
+
+     .gallery img:hover{
+        filter:grayscale(0);
+        transform:scale(1.1);
+
+     }
