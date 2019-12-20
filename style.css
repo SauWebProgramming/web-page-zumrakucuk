@@ -91,7 +91,7 @@
     }
     .moving-body{
         padding:4px;
-        height:300px;
+        height:310px;
         
 
     }
@@ -170,7 +170,7 @@
 
      .middle{
          position: absolute;
-         top: 52%;
+         top: 57%;
          left: 50%;
          transform: translate(-50%, -50%) ;
      }
@@ -332,3 +332,57 @@
 
 
      }
+
+     .slogan{
+         position: absolute;
+         top: 135%;
+         left: 40%;
+     }
+
+     .sloganimg{
+         position: absolute;
+         top:105%;
+         left:5%;
+         padding:0px;
+         margin:1px;
+         border-width:3px;
+         border-color: rgb(56, 42, 40);
+         border-style: solid;
+     }
+
+     .slogan h1{
+         color: rgb(139, 52, 36);
+     }
+
+     .slogan p{
+         font-size: large
+         
+     }
+
+     .slogan1{
+        position: absolute;
+        top: 200%;
+        left: 8%;
+    }
+
+    .sloganimg1{
+        position: absolute;
+        top:195%;
+        right:10%;
+        padding:1px;
+        margin:3px;
+        border-width: 3px;
+        border-color: rgb(56, 42, 40);
+        border-style: solid;
+        
+        
+    }
+
+    .slogan1 h1{
+        color: rgb(139, 52, 36);
+    }
+
+    .slogan1 p{
+        font-size: large
+        
+    }
