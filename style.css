@@ -386,3 +386,22 @@
         font-size: large
         
     }
+
+    .konum{
+        position: absolute;
+        top:75%;
+        left:60%;
+        padding:1px;
+        margin:3px;
+        border-width: 1px;
+        border-color: rgb(139, 52, 36);
+        border-style: solid;
+    }
+
+     .baslık h1{
+        position: absolute;
+        top:58%;
+        left:60%;
+        color: rgb(139, 52, 36);
+        
+    }
