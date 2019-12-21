@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         </head>
         <body>
             
@@ -86,6 +87,44 @@
         <iframe src=
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.84297889563751!2d30.41000486740948!3d40.77329196220425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb335a2a45f9d%3A0x812186d90fcabb62!2sYenig%C3%BCn%2C%2054100%20Adapazar%C4%B1%2FSakarya!5e0!3m2!1str!2str!4v1576915218935!5m2!1str!2str" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>"
          </div>
+
+         <div class="footer">
+            <div class="inner-footer">
+         <div class="footer-items">
+             <h1>MKİMYA</h1>
+             <p>ZÜMRA KÜÇÜK </br>B181200025</p>
+         </div>
+         <div class="footer-items">
+             <h2>LİNKLER</h2>
+             <div class="border1"></div>
+             <ul>
+             <a href="index.html"><li>Anasayfa</li></a>
+             <a href="about.html"><li>Hakkımızda</li></a>
+             <a href="image.html"><li>Galeri</li></a>
+             <a href="autocare.html"><li>Otobakım Ürünleri</li></a>
+             <a href="kitchen.html"><li>Mutfak Bakım Ürünleri</li></a>
+             <a href="contact.html"><li>İletişim</li></a>
+             </ul>
+         </div>
+         <div class="footer-items">
+             <h2>İletişim</h2>
+             <div class="border1"></div>
+             <ul>
+                 <li><i class="fa fa-map-marker" aria-hidden="true"></i>Sakarya/Türkiye</li>
+                 <li><i class="fa fa-phone" aria-hidden="true"></i>053999999</li>
+                 <li><i class="fa fa-envelope" aria-hidden="true"></i>mkimya@domain.com</li>
+             </ul>
+             <div class="social-media">
+                 <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                 <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                 <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                 <a href=""><i class="fa fa-google-plus" aria hidden="true"></i></a>
+             </div>
+        
+         </div>
+        </div>
+        
+        </div>
     </body>
     </html>
 
@@ -151,4 +190,126 @@
 .breadcrumb2 li a:hover:after {
     border-left-color: darkcyan !important;
 }
+
+.footer{
+        position: absolute;
+        top:170%;
+        width: 100%;
+        background:#00121b;
+        display: block;
+
+    }
+
+    .inner-footer{
+        width:95%;
+        margin:auto;
+        padding:30px 10px;
+        display:flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+     .footer-items{
+         width:25%;
+         padding:10px 20px;
+         box-sizing: border-box;
+     }
+     .footer h1{
+         padding:10px 0;
+         font-size:25px;
+         color:#fff;
+         text-transform: uppercase;
+     }
+     
+     .footer-items p{
+         color: grey;
+         font-size:16px;
+         text-align:justify;
+         line-height: 25px;
+     }
+
+     .footer h2{
+         margin:10px 0;
+         color:grey;
+         font-size: 16px;
+         font-weight: lighter;
+         text-transform: uppercase;
+     }
+
+     .border1{
+         height:2px;
+         width:40px;
+         background: #ff9800;
+        }
+
+    .footer ul{
+        list-style:none;
+        color:#fff;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+
+    }
+
+     .footer ul a{
+        text-decoration: none;
+        outline: none;
+        color:#fff;
+        transition: 0.3s ;
+    }
+
+    .footer ul a:hover {
+        color:#ff9800;
+
+    }
+
+    .footer ul li {
+        margin:10px 0;
+        height: 25px;
+    }
+
+    .footer li i {
+        margin-right:20px;
+    }
+
+    .social-media {
+        width:100%;
+        color:#fff;
+        text-align: center;
+
+    }
+
+    .social-media a{
+        text-decoration: none;
+    }
+
+    .social-media i{
+        height: 15px;
+        width:15px;
+        margin:20px 5px;
+        padding: 10px;
+        color:#fff;
+        border-radius: 50%;
+        border: 1px solid grey;
+        transition: 0.3s;
+
+    }
+
+    .social-media i:hover{
+        background: grey;
+    }
+
+    .footer-bottom{
+        padding: 10px;
+        background:#3d545f;
+        color:#fff;
+        font-size:12px;
+    }
+    @media screen and(max-width: 1085px){
+        .footer-items{
+            width:50%;
+
+        }
+        
+    }
     </style>

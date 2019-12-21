@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="stylesheet" href="script.js" type="text/javascript">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,6 +36,7 @@
 
 </ul>
 </nav>
+
 
 <div class = "slidershow middle">
         <div class="slides">
@@ -96,6 +98,45 @@
      
              </marquee>
     </div>
+
+    <div class="footer">
+        <div class="inner-footer">
+     <div class="footer-items">
+         <h1>MKİMYA</h1>
+         <p>ZÜMRA KÜÇÜK </br>B181200025</p>
+     </div>
+     <div class="footer-items">
+         <h2>LİNKLER</h2>
+         <div class="border"></div>
+         <ul>
+         <a href="index.html"><li>Anasayfa</li></a>
+         <a href="about.html"><li>Hakkımızda</li></a>
+         <a href="image.html"><li>Galeri</li></a>
+         <a href="autocare.html"><li>Otobakım Ürünleri</li></a>
+         <a href="kitchen.html"><li>Mutfak Bakım Ürünleri</li></a>
+         <a href="contact.html"><li>İletişim</li></a>
+         </ul>
+     </div>
+     <div class="footer-items">
+         <h2>İletişim</h2>
+         <div class="border"></div>
+         <ul>
+             <li><i class="fa fa-map-marker" aria-hidden="true"></i>Sakarya/Türkiye</li>
+             <li><i class="fa fa-phone" aria-hidden="true"></i>053999999</li>
+             <li><i class="fa fa-envelope" aria-hidden="true"></i>mkimya@domain.com</li>
+         </ul>
+         <div class="social-media">
+             <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-google-plus" aria hidden="true"></i></a>
+         </div>
+    
+     </div>
+    </div>
+    
+    </div>
+    
     <div class="slogan">
         <h1>Kaliteli Kimya İçin Biz Her Yerde Varız...</h1>
         <p > MKİMYA yüksek teknolojisi ve geniş AR-GE</br>
@@ -119,8 +160,131 @@
             <div class="sloganimg1">
                 <img src="sloganimg1.jpg">
             </div>
-        
-        
+           
+           
    
 </body>
 </html>
+<style>
+    .footer{
+        position: absolute;
+        top:250%;
+        width: 100%;
+        background:#00121b;
+        display: block;
+
+    }
+
+    .inner-footer{
+        width:95%;
+        margin:auto;
+        padding:30px 10px;
+        display:flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+     .footer-items{
+         width:25%;
+         padding:10px 20px;
+         box-sizing: border-box;
+     }
+     h1{
+         padding:10px 0;
+         font-size:25px;
+         color:#fff;
+         text-transform: uppercase;
+     }
+     
+     .footer-items p{
+         color: grey;
+         font-size:16px;
+         text-align:justify;
+         line-height: 25px;
+     }
+
+     h2{
+         margin:10px 0;
+         color:grey;
+         font-size: 16px;
+         font-weight: lighter;
+         text-transform: uppercase;
+     }
+
+     .border{
+         height:2px;
+         width:40px;
+         background: #ff9800;
+        }
+
+    .footer ul{
+        list-style:none;
+        color:#fff;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+
+    }
+
+     .footer ul a{
+        text-decoration: none;
+        outline: none;
+        color:#fff;
+        transition: 0.3s ;
+    }
+
+    .footer ul a:hover {
+        color:#ff9800;
+
+    }
+
+    .footer ul li {
+        margin:10px 0;
+        height: 25px;
+    }
+
+    .footer li i {
+        margin-right:20px;
+    }
+
+    .social-media {
+        width:100%;
+        color:#fff;
+        text-align: center;
+
+    }
+
+    .social-media a{
+        text-decoration: none;
+    }
+
+    .social-media i{
+        height: 15px;
+        width:15px;
+        margin:20px 5px;
+        padding: 10px;
+        color:#fff;
+        border-radius: 50%;
+        border: 1px solid grey;
+        transition: 0.3s;
+
+    }
+
+    .social-media i:hover{
+        background: grey;
+    }
+
+    .footer-bottom{
+        padding: 10px;
+        background:#3d545f;
+        color:#fff;
+        font-size:12px;
+    }
+    @media screen and(max-width: 1085px){
+        .footer-items{
+            width:50%;
+
+        }
+        
+    }
+</style>
