@@ -79,7 +79,7 @@
         border-radius:5px;
         overflow:hidden;
         margin-left: 80%;
-        margin-top:7%;
+        margin-top:8%;
     }
     
     .header{
@@ -400,10 +400,9 @@
 
      .baslık h1{
         position: absolute;
-        top:58%;
+        top:64%;
         left:60%;
         color: rgb(139, 52, 36);
         
     }
 
-    

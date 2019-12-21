@@ -25,11 +25,14 @@
         </li>
         
         <li><a href="contact.html">İletişim</a></li>
-        
-        
-        
         </ul>
         </nav>
+
+        <ul class="breadcrumb3">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="#">Ürünler</a></li>
+            <li><a href="autocare.html">Otobakım ürünleri</a></li>
+        </ul>
 
         <section id="features" class="sectionAres">
             <div class="featuresTop">
@@ -243,4 +246,65 @@
               h1{
                   color:rgb(139, 52, 36)
               }
+
+   .breadcrumb3 {
+    list-style: none;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -1%;
+    margin-left: 1.5%;
+}
+ 
+.breadcrumb3 li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 40px;
+    position: relative;
+    float: left;
+    background-color: rgb(139, 52, 36);
+}
+ 
+.breadcrumb3 li a:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid rgb(139, 52, 36);
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+}
+ 
+.breadcrumb3 li a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+ 
+.breadcrumb3 li:first-child a {
+    padding-left: 10px;
+}
+ 
+.breadcrumb3 li a:hover {
+    background: darkcyan;
+}
+ 
+.breadcrumb3 li a:hover:after {
+    border-left-color: darkcyan !important;
+}
         </style>
